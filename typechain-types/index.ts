@@ -3,8 +3,6 @@
 /* eslint-disable */
 import type * as chainlink from "./@chainlink";
 export type { chainlink };
-import type * as openzeppelin from "./@openzeppelin";
-export type { openzeppelin };
 import type * as contracts from "./contracts";
 export type { contracts };
 export * as factories from "./factories";
@@ -18,7 +16,5 @@ export type { VRFCoordinatorV2Mock } from "./@chainlink/contracts/src/v0.8/mocks
 export { VRFCoordinatorV2Mock__factory } from "./factories/@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock__factory";
 export type { VRFConsumerBaseV2 } from "./@chainlink/contracts/src/v0.8/VRFConsumerBaseV2";
 export { VRFConsumerBaseV2__factory } from "./factories/@chainlink/contracts/src/v0.8/VRFConsumerBaseV2__factory";
-export type { Ownable } from "./@openzeppelin/contracts/access/Ownable";
-export { Ownable__factory } from "./factories/@openzeppelin/contracts/access/Ownable__factory";
 export type { Raffle } from "./contracts/Raffle";
 export { Raffle__factory } from "./factories/contracts/Raffle__factory";
